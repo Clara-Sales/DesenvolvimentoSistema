@@ -1,4 +1,4 @@
- function verificarEmprestimo(salario, emprestimo){
+
     let salario = 1500;
     let valorEmprestimo= 500;
     let limiteEmprestimo= salario * 0.20;
@@ -9,5 +9,4 @@
     else {
       console.log("Emprestimo pode ser concedido.");
     }
-  }
-  verificarEmprestimo();
+ 

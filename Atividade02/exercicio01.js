@@ -1,4 +1,14 @@
 // Faça um programa que leia 3 numeros inteiros e apresenteo menor deles.
+/*              Exercícios sobre funções
+05. Elabore uma função e verifique se o numero é impar ou par
+
+06. Faça uma funão para determina se o numero é impar ou par
+
+07. Faça uma função para verificar o salario de um trabalhad-
+or e o emprestimo, verifique se o emprestimo é ate 20% do sa-
+lario do trabalhador, se for, o emprestimo deve ser aprovado,
+caso contrario, deve ser rejeitado.
+*/
 let n1 = 5
 let n2 = 8
 let n3 = 6
