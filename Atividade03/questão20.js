@@ -10,6 +10,7 @@ function pergunta() {
   } else {
     console.log("Valor Inválido!");
   }
+
 }
 
 pergunta();
