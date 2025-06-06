@@ -1,5 +1,6 @@
-function Dobro() {
-    const n1 = parseFloat(prompt("Informe um numero:"));
-    const dobro = n1 + n1
+function dobro(numero) {
+  return numero * 2;
 }
-Dobro(console.log(`O dobro do valor informado é ${dobro}`));
+console.log(dobro(5));
+
+

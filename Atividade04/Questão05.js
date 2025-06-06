@@ -1,14 +1,15 @@
-function contarVogais(){
-    function contarVogais(str) {
-        const vogais = "aeiouAEIOU";
-        let contador = 0;
+function contarVogais(texto) {
+  let vogais = "aeiouAEIOU";
+  let contador = 0;
 
-        for (let i = 0; i < str.length; i++) {
-            if (vogais.indexOf(str[i]) !== -1) {
-            contador++;
-            }
-        }
-
-        return contador;
+  for (let i = 0; i < texto.length; i++) {
+    if (vogais.indexOf(texto[i]) !== -1) {
+      contador++;
     }
+  }
+
+  return contador;
 }
+console.log(contarVogais("Programação"));        
+
+

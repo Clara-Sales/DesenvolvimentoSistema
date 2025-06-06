@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 09</title>
+</head>
+<body>
+    <script>
+        let palavras = [];
+        let palavraDigitada;
+        do{
+            palavraDigitada = prompt("Digite uma palavra:");
+
+            palavras.push(palavraDigitada);
+
+        }while(palavraDigitada!="")
+
+        let menorPalavra = palavras[0];
+        let maiorPalavra = palavras[0];
+
+        for (let i = 1; i < palavras.length; i++) {
+            const palavraAtual = palavras[i];
+
+            if (palavraAtual.length < menorPalavra.length) {
+            menorPalavra = palavraAtual;
+            }
+
+            else if (palavraAtual.length > maiorPalavra.length) {
+            maiorPalavra = palavraAtual;
+            }
+        }
+        console.log(`A maior palavra é ${maiorPalavra} e o menor ${menorPalavra}`);
+    </script>
+</body>
+</html>
